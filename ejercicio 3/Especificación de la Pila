@@ -1,1 +1,91 @@
+package Pila;
+
+/**
+ *
+ * @author gaell
+ */
+public interface iStack<T> {
+    void push(T element);
+    void pop(T element);
+    void peek(T element);
+    boolean isEmpty();
+}
+
+package Pila;
+
+/**
+ *
+ * @author gaell
+ */
+public class StackArray<T> implements iStack<T> {
+    private T[] elements; 
+    private int top;
+
+    public StackArray() {
+        elements = (T[]) new Object[30];
+        top = -1; 
+    }
+
+    public StackArray(int size) {
+        elements = (T[]) new Object[size];
+        top = -1;
+    }
+
+    @Override
+    public void push(T element) {
+        if (top < elements.length - 1) {
+            top++;
+            elements[top] = element;
+        } else {
+            System.out.println("La pila está llena");
+        }
+    }
+
+    @Override
+    public void pop(T element) {
+        if (!isEmpty()) {
+            System.out.println("Elemento eliminado: " + elements[top]);
+            elements[top] = null;
+            top--;
+        } else {
+            System.out.println("La pila está vacía");
+        }
+    }
+
+    @Override
+    public void peek(T element) {
+        if (!isEmpty()) {
+            System.out.println("Elemento en la cima: " + elements[top]);
+        } else {
+            System.out.println("La pila está vacía");
+        }
+    }
+
+    @Override
+    public boolean isEmpty() {
+        return top == -1;
+    }
+}
+
+package Pila;
+
+/**
+ *
+ * @author gaell
+ */
+
+
+public class MainPila {
+    public static void main(String[] args) {
+        StackArray<String> pila = new StackArray<>();
+
+        pila.push("tavares");
+        pila.push("mike");
+        pila.push("Luis");
+
+        pila.peek(null); 
+        pila.pop(null);  
+        pila.peek(null); 
+    }
+}
 
