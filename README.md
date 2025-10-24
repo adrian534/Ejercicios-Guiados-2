@@ -9,5 +9,5 @@
 | 3 | Especificación de la Pila | [📄 Abrir PDF](./especificacion%20de%20pila.pdf) | — |
 | 4 | Lista Encantada Humana en Java | [📄 Abrir PDF](./listaencantantada.pdf) | — |
 | 5 | Evidencia Curso Nearpod | [📄 Abrir PDF](./nearpod.pdf) | — |
-| 6 | Actividad Colas | [📄 Abrir PDF](./colasEstructuradedatos.pdf) | [💻 Ver Código](./CodigoCola/) |
+| 6 | Actividad Colas | [📄 Abrir PDF](./colasEstructuradedatos.pdf) | [💻 Ver Código](./CodigoCola.java/) |
 
