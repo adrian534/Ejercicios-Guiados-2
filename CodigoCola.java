@@ -23,9 +23,9 @@ public class Main {
             switch (opcion) {
                 case 1:
                     
-                    tareas.insertar("Preparar café");
-                    tareas.insertar("Revisar emails");
-                    tareas.insertar("Iniciar proyecto");
+                    system.out.println("ingresar tarea");
+                    string tarea = sc.nextLine();
+                    tareas.insertar(tarea);
                     break;
 
                 case 2:
@@ -198,4 +198,5 @@ public class Nodo <T> {
         return "Nodo{" + "dato=" + dato + ", siguiente=" + siguiente + '}';
     }
     
+
 }
