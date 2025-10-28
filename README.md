@@ -10,4 +10,5 @@
 | 4 | Lista Encantada Humana en Java | [📄 Abrir PDF](./listaencantantada.pdf) | — | — |
 | 5 | Evidencia Curso Nearpod | [📄 Abrir PDF](./nearpod.pdf) | — | — |
 | 6 | Actividad Colas | [📄 Abrir PDF](./colasEstructuradedatos.pdf) | [💻 Ver Código](./CodigoCola.java/) | [▶️ Ver Video](./videoCola.mp4) |
+| 7 | Bubble sort | [📄 Abrir PDF](./ordenamientoBurbuja.pdf) | — | — |
 
